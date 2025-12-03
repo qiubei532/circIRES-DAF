@@ -39,9 +39,9 @@ Internal ribosome entry sites (IRESs) in circular RNAs (circRNAs) are key elemen
 
 ## dependencies
 ```
-### Python 3.8.8
+# Python 3.8.8
 
-### Core dependencies
+# Core dependencies
 torch==2.4.1
 torch-geometric==2.6.1
 numpy==1.22.4
@@ -51,7 +51,7 @@ matplotlib==3.3.4
 seaborn==0.11.1
 tqdm==4.59.0
 
-### RNA secondary structure prediction
+# RNA secondary structure prediction
 ViennaRNA==2.7.0
 ```
 

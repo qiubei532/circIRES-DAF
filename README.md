@@ -13,12 +13,7 @@ Internal ribosome entry sites (IRESs) in circular RNAs (circRNAs) are key elemen
 ```
 ├── src/
 │   ├── encoders/           # Feature encoders
-│   │   ├── nucleotide_encoder.py
-│   │   ├── density_encoder.py
-│   │   ├── structure_encoder.py
-│   │   └── accumulation_encoder.py
 │   ├── data/               # Dataset handling
-│   │   └── dataset.py
 │   ├── models/             # Model components
 │   │   ├── seq_processor.py
 │   │   ├── graph_processor.py
@@ -26,12 +21,7 @@ Internal ribosome entry sites (IRESs) in circular RNAs (circRNAs) are key elemen
 │   │   ├── fusion.py
 │   │   └── unified_model.py
 │   ├── training/           # Training & evaluation
-│   │   ├── trainer.py
-│   │   ├── evaluator.py
-│   │   └── cross_validation.py
 │   └── utils/              # Utilities
-│       ├── visualization.py
-│       └── seed.py
 ├── main.py                 # Main entry point
 ├── requirements.txt
 └── README.md
